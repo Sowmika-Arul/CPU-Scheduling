@@ -22,11 +22,11 @@
 
 - **Turn Around Time**: Time Difference between completion time and arrival time.
 
-Turn Around Time = Completion Time  –  Arrival Time
+                        Turn Around Time = Completion Time  –  Arrival Time
 
 - **Waiting Time(W.T)**: Time Difference between turn around time and burst time.
 
-Waiting Time = Turn Around Time  –  Burst Time
+                         Waiting Time = Turn Around Time  –  Burst Time
 
 ## Things to Take Care While Designing a CPU Scheduling Algorithm
 
@@ -34,12 +34,18 @@ Different CPU Scheduling algorithms have different structures and the choice of 
 
 The criteria include the following: 
 
-- **CPU Utilization:** The main purpose of any CPU algorithm is to keep the CPU as busy as possible. Theoretically, CPU usage can range from 0 to 100 but in a real-time system, it varies from 40 to 90 percent depending on the system load.
+- **CPU Utilization:** The main purpose of any CPU algorithm is to keep the CPU as busy as possible. 
+                       Theoretically, CPU usage can range from 0 to 100 but in a real-time system, it varies from 40 to 90 percent depending on the system load.
 
-- **Throughput:** The average CPU performance is the number of processes performed and completed during each unit. This is called throughput. The output may vary depending on the length or duration of the processes.
+- **Throughput:** The average CPU performance is the number of processes performed and completed during each unit. 
+                  The output may vary depending on the length or duration of the processes.
 
-- **Turn Round Time:** For a particular process, the important conditions are how long it takes to perform that process. The time elapsed from the time of process delivery to the time of completion is known as the conversion time. Conversion time is the amount of time spent waiting for memory access, waiting in line, using CPU, and waiting for I / O.
+- **Turn Round Time:** For a particular process, the important conditions are how long it takes to perform that process.
+                       The time elapsed from the time of process delivery to the time of completion is known as the conversion time. 
+                       Conversion time is the amount of time spent waiting for memory access, waiting in line, using CPU, and waiting for I / O.
 
-- **Waiting Time:** The Scheduling algorithm does not affect the time required to complete the process once it has started performing. It only affects the waiting time of the process i.e. the time spent in the waiting process in the ready queue.
+- **Waiting Time:** The Scheduling algorithm does not affect the time required to complete the process once it has started performing. 
+                    It only affects the waiting time of the process i.e. the time spent in the waiting process in the ready queue.
 
-- **Response Time:** In a collaborative system, turn around time is not the best option. The process may produce something early and continue to computing the new results while the previous results are released to the user.
+- **Response Time:** In a collaborative system, turn around time is not the best option. 
+                     The process may produce something early and continue to computing the new results while the previous results are released to the user.
