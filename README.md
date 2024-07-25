@@ -15,11 +15,17 @@
 # Terminologies Used in CPU Scheduling
 
 - **Arrival Time**: Time at which the process arrives in the ready queue.
+
 - **Completion Time**: Time at which process completes its execution.
+
 - **Burst Time**: Time required by a process for CPU execution.
+
 - **Turn Around Time**: Time Difference between completion time and arrival time.
+
 Turn Around Time = Completion Time  –  Arrival Time
+
 - **Waiting Time(W.T)**: Time Difference between turn around time and burst time.
+
 Waiting Time = Turn Around Time  –  Burst Time
 
 # Things to Take Care While Designing a CPU Scheduling Algorithm
@@ -36,4 +42,4 @@ The criteria include the following:
 
 - **Waiting Time:** The Scheduling algorithm does not affect the time required to complete the process once it has started performing. It only affects the waiting time of the process i.e. the time spent in the waiting process in the ready queue.
 
--**Response Time:** In a collaborative system, turn around time is not the best option. The process may produce something early and continue to computing the new results while the previous results are released to the user. Therefore another method is the time taken in the submission of the application process until the first response is issued. This measure is called response time.
+- **Response Time:** In a collaborative system, turn around time is not the best option. The process may produce something early and continue to computing the new results while the previous results are released to the user. Therefore another method is the time taken in the submission of the application process until the first response is issued. This measure is called response time.
